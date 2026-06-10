@@ -1,0 +1,85 @@
+PRAGADISHWARAN KARTHIKEYAN
++91 7598078188 ⋄ Bengaluru, India
+deeshkarthik@gmail.com ⋄ LinkedIn ⋄ GitHub
+OBJECTIVE
+A recent graduate in Artificial Intelligence and Machine Learning, with strong expertise in Generative AI and advanced
+language model development. Seeking an opportunity to apply my technical skills in building cutting-edge AI solutions
+to drive real-world impact.
+EDUCATION
+Bachelor of Technology in Computer Science (Artificial Intelligence)
+Amrita University (Amrita Vishwa Vidyapeetham), Coimbatore, India
+
+Current CGPA: 7.7
+2020-2024
+
+EXPERIENCE
+AI Engineer
+ENGATI
+
+Apr 2025 - Present
+Bengaluru, India
+
+• Developed real-time Voice AI services enabling seamless voice conversations with AI agents across multiple
+communication channels for Customer experience.
+• Engineered India’s first business-initiated WhatsApp AI voice call solution, enabling businesses to place outbound
+AI-powered voice calls to customers through WhatsApp, a landmark deployment in partnership with META.
+• Implemented dual architecture: low-latency direct S2S and modular STT–LLM–TTS pipeline supporting multiple providers.
+• Built multilingual voice/text intelligence (10–15 languages), supporting voice interruption, contextual memory,
+and enterprise integrations.
+• Designed a scalable multi-process system capable of running thousands of concurrent Voice AI sessions with
+efficient resource utilization and fault tolerance.
+• Built a multimodal conversational framework supporting real-time voice and text agents with shared context,
+unified session management, and cross-channel fallback logic.
+AI Engineer (Intern)
+DPDZERO
+
+Dec 2024 - Mar 2025
+Bengaluru, India
+
+• Developed TARA (Tailored Agent for Repayment Advice), an AI voice bot with real-time voice streaming and
+repayment assistance.
+• Implemented a Multi-agent framework using LangGraph for customer support, incorporating LLM-as-a-judge
+validation for enhanced response accuracy.
+• Developed behavioral scoring models, segmenting borrowers based on interaction data to optimize collection
+strategies.
+• Built an AI-powered strategy builder, dynamically selecting the best communication channel based on past
+borrower interactions to improve recovery efficiency.
+AI Engineer (Intern)
+BOSCH
+
+Feb 2024 - Aug 2024
+Bengaluru, India
+
+• Developed a voice chatbot fine-tuned on domain-specific language models for deployment on edge devices.
+• Worked on fine-tuning methods like LoRA and QLoRA, and implemented Retrieval-Augmented Generation
+(RAG) with language models.
+• Built a Speech-to-Text to Large Language Model to Text-to-Speech pipeline for voice interaction. (View it here)
+
+RESEARCH WORKS
+• Pragadishwaran Et al. Communicable Disease Prediction in Kerala Using Machine Learning and Deep Learning
+Algorithms (Oct.2023) - Accepted (View it here)
+PROJECTS
+End-to-End LLM based Mobility Voice Chatbot
+Mar 2024 - Jun 2024
+Developed and deployed voice chatbot model that includes fine-tuning language models by implementing RetrievalAugmented Generation (RAG) techniques, and adapting models such as Whisper for Indian accent voice recognition.
+Communicable Disease Prediction in Kerala
+Nov 2022 - Mar 2023
+Forecasted the spread of communicable diseases like Dengue and Chikungunya in Kerala using deep learning models
+and climatic variables. Implemented models to raise awareness about disease prevention. The project’s results were
+published, contributing to public health insights.
+TECHNICAL SKILLS
+Languages: Python (Advanced), C++ (Intermediate).
+OS: Windows, Ubuntu, MacOS
+Libraries: LlamaIndex, Langchain, Langgraph, HuggingFace, Sentence-Transformers, OpenAI.
+Office Ware: MS Excel (Intermediate), MS Presentation (Advanced), MS Word (Advanced)
+Soft skills: Leadership, Adaptability, Teamwork
+
+LEADERSHIP
+• Hospitality Team Head, Anokha Fest at Amrita Vishwa Vidyapeetham. Coordinated with the
+organizing team to plan and execute hospitality services, focusing on accommodation, food arrangements, and
+guest interactions. Successfully ensured smooth operations and enhanced guest experiences.
+COMMUNITY INVOLVEMENT
+• Volunteered for multiple Blood Donation drives, Dec 2024
+• Participated in the Dphicon Marathon, Directorate of Public Health and Preventive Medicine, July 2023
+
+
