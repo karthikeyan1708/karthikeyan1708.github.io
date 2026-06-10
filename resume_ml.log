@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.10)  10 JUN 2026 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.10)  10 JUN 2026 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,7 +362,7 @@ n input line 30.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 36.
+(Font)              using `OT1/cmr/bx/n' instead on input line 35.
 
 [1
 
@@ -385,7 +385,7 @@ Package rerunfilecheck Info: File `resume_ml.out' has not changed.
 Here is how much of TeX's memory you used:
  12830 strings out of 467871
  221076 string characters out of 5418376
- 637278 words of memory out of 5000000
+ 636278 words of memory out of 5000000
  41592 multiletter control sequences out of 15000+600000
  633603 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -400,9 +400,9 @@ fb><C:/Users/eshwa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr10.pfb><C:/Users/eshwa/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/eshwa/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb>
-Output written on resume_ml.pdf (2 pages, 131377 bytes).
+Output written on resume_ml.pdf (2 pages, 129931 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
