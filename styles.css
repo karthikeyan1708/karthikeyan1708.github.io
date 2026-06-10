@@ -581,6 +581,123 @@ section {
     color: var(--text-secondary); font-size: 0.9rem;
 }
 
+/* ── Section Subtitle ── */
+.section-subtitle {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 2.5rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* ── Engagements ── */
+.engagements-section { position: relative; z-index: 1; }
+.engagements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+}
+.engagement-card {
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    transition: var(--transition);
+}
+.engagement-card:hover {
+    border-color: rgba(0,240,255,0.3);
+}
+.engagement-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(0,240,255,0.12), rgba(112,0,255,0.12));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem; color: var(--accent-color);
+    flex-shrink: 0;
+}
+.engagement-info {
+    display: flex; flex-wrap: wrap;
+    align-items: center; gap: 0.5rem;
+}
+.engagement-info h3 {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+.engagement-date {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-color);
+    background: rgba(0,240,255,0.08);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+.engagement-type {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-secondary);
+    background: rgba(112,0,255,0.08);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+.engagement-card > p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+.engagement-tags {
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+    margin-top: auto;
+}
+.engagement-tags span {
+    padding: 0.2rem 0.6rem;
+    background: rgba(0,240,255,0.06);
+    border: 1px solid rgba(0,240,255,0.15);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-family: 'Fira Code', monospace;
+}
+
+/* ── Experience Sub-sections ── */
+.exp-subsection {
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+.exp-subsection h5 {
+    font-size: 0.95rem;
+    color: var(--accent-color);
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+.exp-subsection h5 i {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* ── Confidential Badge ── */
+.confidential-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75rem;
+    color: #ff6b6b;
+    background: rgba(255,107,107,0.08);
+    border: 1px solid rgba(255,107,107,0.2);
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+}
+.confidential-badge i {
+    font-size: 0.7rem;
+}
+
 /* ── Contact ── */
 .contact-section { text-align: center; }
 .contact-container { max-width: 700px; margin: 0 auto; }
