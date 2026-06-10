@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Karthikeyan | AI Engineer & Cybersecurity Analyst</title>
+    <meta name="description" content="Portfolio of M Karthikeyan — AI Engineer and OT Cybersecurity Analyst at PwC with 1.8+ years of experience building ML models and securing critical infrastructure.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particle Canvas Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar glass" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">MK<span class="highlight">.</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-primary nav-cta">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content reveal">
+            <p class="greeting">&lt; Hello World /&gt;</p>
+            <h1 class="name">M Karthikeyan</h1>
+            <h2 class="typing-container">I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+            <p class="summary">
+                1.8+ years building AI-powered security solutions at <strong>PwC</strong>. 
+                I protect critical OT infrastructure with machine learning and ensure global compliance — 
+                from threat detection to ISO 27001 implementation.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary btn-glow">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/karthikeyan1708" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/karthikeyan-m-10a35a242/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="javascript:void(0)" onclick="window.open('mailto:karthikeyan17802@gmail.com','_self')" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-header reveal">
+            <span class="section-tag">&lt;about&gt;</span>
+            <h2>About <span class="highlight">Me</span></h2>
+        </div>
+        <div class="about-container reveal">
+            <div class="about-card glass-card">
+                <div class="about-text">
+                    <p>I'm a <strong>Computer Science Engineer</strong> from <strong>Amrita Vishwa Vidyapeetham</strong> with a specialization in <strong>Artificial Intelligence</strong>. I currently work at <strong>PricewaterhouseCoopers (PwC)</strong> as an OT Cybersecurity Associate, where I blend my AI expertise with security to protect critical infrastructure across multiple industry verticals.</p>
+                    <p>My passion lies at the intersection of <strong>AI and Security</strong> — from predicting communicable disease outbreaks using deep learning to recognizing emotions in Tamil speech using transfer learning. I'm an <strong>ISO 27001:2022 Lead Implementer</strong> and a published researcher, always seeking new challenges that push the boundaries of technology.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="1.8">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Projects Shipped</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="1">0</span>
+                            <span class="stat-label">Research Paper</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="8.5">0</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header reveal">
+            <span class="section-tag">&lt;skills&gt;</span>
+            <h2>Technical <span class="highlight">Arsenal</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category glass-card reveal hover-lift">
+                <div class="skill-icon-wrap"><i class="fas fa-code"></i></div>
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span>Python</span><span>Java</span><span>MATLAB</span><span>SQL</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal hover-lift">
+                <div class="skill-icon-wrap"><i class="fas fa-brain"></i></div>
+                <h3>AI / ML</h3>
+                <div class="skill-tags">
+                    <span>TensorFlow</span><span>PyTorch</span><span>Scikit-Learn</span><span>Keras</span>
+                    <span>CNN</span><span>RNN</span><span>LSTM</span><span>Transfer Learning</span>
+                    <span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal hover-lift">
+                <div class="skill-icon-wrap"><i class="fas fa-shield-alt"></i></div>
+                <h3>Cybersecurity</h3>
+                <div class="skill-tags">
+                    <span>Wireshark</span><span>Claroty</span><span>Tenable</span>
+                    <span>Microsoft Sentinel</span><span>Defender for IoT</span>
+                    <span>ArcStrike</span><span>ISO 27001:2022</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal hover-lift">
+                <div class="skill-icon-wrap"><i class="fas fa-cloud"></i></div>
+                <h3>Tools & Cloud</h3>
+                <div class="skill-tags">
+                    <span>Git</span><span>Docker</span><span>CI/CD</span><span>REST APIs</span>
+                    <span>AWS</span><span>Azure</span><span>MongoDB</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="timeline-section">
+        <div class="section-header reveal">
+            <span class="section-tag">&lt;experience&gt;</span>
+            <h2>Professional <span class="highlight">Journey</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot pulse"></div>
+                <div class="timeline-content glass-card hover-lift">
+                    <div class="timeline-header">
+                        <div>
+                            <span class="date"><i class="far fa-calendar-alt"></i> October 2024 — Present</span>
+                            <span class="duration-badge">1.8+ Years</span>
+                        </div>
+                    </div>
+                    <h3>Associate — OT Cybersecurity</h3>
+                    <h4><i class="fas fa-building"></i> PricewaterhouseCoopers (PwC) &bull; Hyderabad, India</h4>
+                    <ul>
+                        <li><strong>Led end-to-end OT security assessments</strong> across manufacturing, energy, and critical infrastructure clients, identifying and remediating <strong>150+ vulnerabilities</strong> using Claroty, Tenable, and custom Python analysis scripts.</li>
+                        <li><strong>Built and deployed anomaly detection ML models</strong> using Python and Scikit-Learn to monitor OT network traffic, reducing false-positive alerts by <strong>35%</strong> and improving threat detection response time by <strong>40%</strong>.</li>
+                        <li><strong>Automated compliance audit workflows</strong> by developing Python-based data pipelines that parsed and cross-referenced security logs with ISO 27001:2022 control requirements, cutting manual analysis time by <strong>60%</strong>.</li>
+                        <li><strong>Architected real-time security dashboards</strong> using Microsoft Sentinel and Defender for IoT, enabling SOC teams to gain immediate visibility into OT/IT convergence threats across <strong>3 client environments</strong>.</li>
+                        <li><strong>Authored 10+ comprehensive security policy documents</strong> and risk assessment reports aligned to ISO 27001:2022, directly contributing to successful audit outcomes for 2 enterprise clients.</li>
+                        <li><strong>Designed and delivered security awareness training</strong> modules for cross-functional engineering teams, embedding security-by-design principles into the SDLC and reducing post-deployment vulnerabilities by <strong>25%</strong>.</li>
+                        <li><strong>Conducted deep-packet inspection and protocol analysis</strong> using Wireshark and ArcStrike on industrial protocols (Modbus, DNP3, OPC-UA), uncovering misconfigurations in network segmentation strategies.</li>
+                        <li><strong>Collaborated with global PwC cybersecurity teams</strong> on threat intelligence sharing and incident response playbook development, strengthening the firm's OT security service offerings.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card hover-lift">
+                    <div class="timeline-header">
+                        <div>
+                            <span class="date"><i class="far fa-calendar-alt"></i> 2020 — 2024</span>
+                        </div>
+                    </div>
+                    <h3>B.Tech — Computer Science & Engineering (AI)</h3>
+                    <h4><i class="fas fa-university"></i> Amrita Vishwa Vidyapeetham &bull; Coimbatore, India</h4>
+                    <ul>
+                        <li>Graduated with a <strong>CGPA of 8.5/10</strong> with specialization in Artificial Intelligence.</li>
+                        <li>Published research paper on communicable disease prediction in an international Springer conference.</li>
+                        <li>Completed advanced coursework in Machine Learning, Deep Learning, NLP, Computer Vision, and Software Engineering.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header reveal">
+            <span class="section-tag">&lt;projects&gt;</span>
+            <h2>Featured <span class="highlight">Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass-card reveal hover-lift">
+                <div class="project-content">
+                    <div class="project-top">
+                        <i class="fas fa-microphone-alt project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/karthikeyan1708/Automatic-Speech-Recognition-and-Emotion-Detection-of-Tamil-Speech" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Speech Emotion Recognition (Tamil)</h3>
+                    <p class="project-date"><i class="far fa-calendar-alt"></i> April 2024 — May 2024</p>
+                    <p class="project-desc">Engineered an emotion recognition system leveraging <strong>transfer learning with Whisper Base</strong> and custom <strong>LSTM neural networks</strong>, achieving <strong>85% accuracy</strong> on Tamil audio data. Built end-to-end preprocessing and feature extraction pipelines using NumPy and Pandas.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span><span>PyTorch</span><span>LSTM</span><span>Whisper</span><span>NLP</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card reveal hover-lift">
+                <div class="project-content">
+                    <div class="project-top">
+                        <i class="fas fa-virus project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/karthikeyan1708/communicable_diseases_prediction" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Communicable Disease Prediction</h3>
+                    <p class="project-date"><i class="far fa-calendar-alt"></i> January 2023 — March 2023</p>
+                    <p class="project-desc">Designed predictive <strong>RNN and SVR models</strong> to forecast Dengue and Chikungunya outbreaks <strong>up to 12 months in advance</strong> with <strong>92% accuracy</strong>. Created visual dashboards using Matplotlib and Seaborn. Published as a research paper in Springer.</p>
+                    <div class="tech-stack">
+                        <span>RNN</span><span>SVR</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="education-section">
+        <div class="section-header reveal">
+            <span class="section-tag">&lt;credentials&gt;</span>
+            <h2>Education & <span class="highlight">Certifications</span></h2>
+        </div>
+        <div class="credentials-grid">
+            <div class="credential-card glass-card reveal hover-lift">
+                <div class="credential-icon"><i class="fas fa-certificate"></i></div>
+                <h3>ISO 27001:2022 Lead Implementer</h3>
+                <p>Certified Information Security Management professional</p>
+            </div>
+            <div class="credential-card glass-card reveal hover-lift">
+                <div class="credential-icon"><i class="fas fa-file-alt"></i></div>
+                <h3>Published Research</h3>
+                <p>"Communicable Disease Prediction Using ML & DL Algorithms" — Springer, Oct 2023</p>
+            </div>
+            <div class="credential-card glass-card reveal hover-lift">
+                <div class="credential-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>B.Tech CSE (AI)</h3>
+                <p>Amrita Vishwa Vidyapeetham — CGPA: 8.5/10 (2020–2024)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header reveal">
+            <span class="section-tag">&lt;contact&gt;</span>
+            <h2>Let's <span class="highlight">Connect</span></h2>
+        </div>
+        <div class="contact-container reveal">
+            <div class="contact-card glass-card">
+                <p>I'm actively looking for new opportunities in <strong>AI Engineering</strong> and <strong>Cybersecurity</strong>. Whether you have a role, a project, or just want to say hi — I'd love to hear from you.</p>
+                <div class="contact-links">
+                    <a href="javascript:void(0)" onclick="window.open('mailto:karthikeyan17802@gmail.com','_self')" class="contact-link" id="emailLink">
+                        <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-link-info">
+                            <span class="contact-link-label">Email</span>
+                            <span class="contact-link-value">karthikeyan17802@gmail.com</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-link-arrow"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/karthikeyan-m-10a35a242/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="contact-link-icon"><i class="fab fa-linkedin"></i></div>
+                        <div class="contact-link-info">
+                            <span class="contact-link-label">LinkedIn</span>
+                            <span class="contact-link-value">View Profile</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-link-arrow"></i>
+                    </a>
+                    <a href="https://github.com/karthikeyan1708" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+                        <div class="contact-link-info">
+                            <span class="contact-link-label">GitHub</span>
+                            <span class="contact-link-value">View Repositories</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-link-arrow"></i>
+                    </a>
+                </div>
+                <button onclick="window.open('mailto:karthikeyan17802@gmail.com','_self')" class="btn-primary btn-glow large-btn" id="sayHelloBtn">Say Hello <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 M Karthikeyan. Designed & Built with <span class="highlight">&hearts;</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
