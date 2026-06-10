@@ -1,0 +1,129 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\geometry{left=0.6in, right=0.6in, top=0.5in, bottom=0.5in}
+
+\definecolor{linkblue}{HTML}{0066CC}
+\definecolor{rulecolor}{HTML}{2C3E50}
+\hypersetup{colorlinks=true, linkcolor=linkblue, urlcolor=linkblue}
+
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\color{rulecolor}\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+\setlist{noitemsep, topsep=2pt, leftmargin=16pt}
+\pagestyle{empty}
+
+\begin{document}
+
+% ─── HEADER ───
+\begin{center}
+{\LARGE \textbf{M KARTHIKEYAN}}\\[4pt]
+{\normalsize AI Engineer \(\mid\) Machine Learning Specialist \(\mid\) OT Security Analytics}\\[6pt]
+\faPhone\ +91 9380699461 \quad
+\faEnvelope\ \href{mailto:karthikeyan17802@gmail.com}{karthikeyan17802@gmail.com} \quad
+\faLinkedin\ \href{https://www.linkedin.com/in/karthikeyan-m-10a35a242/}{LinkedIn} \quad
+\faGithub\ \href{https://github.com/karthikeyan1708}{GitHub} \quad
+\faGlobe\ \href{https://karthikeyan1708.github.io}{Portfolio}
+\end{center}
+
+% ─── SUMMARY ───
+\section{Professional Summary}
+Results-driven AI Engineer with \textbf{1.5+ years} at a Big-4 consulting firm, specializing in building production-grade machine learning pipelines for industrial cybersecurity. Expertise in designing anomaly-detection models, automating large-scale PCAP analysis, and deploying AI-powered vulnerability assessment tools across critical infrastructure. Published researcher in ML-driven disease prediction. Proven track record of reducing manual security analysis effort by 40\% through intelligent automation.
+
+% ─── SKILLS ───
+\section{Core Competencies}
+\begin{itemize}
+  \item \textbf{Machine Learning \& AI:} Supervised/Unsupervised Learning, Time-Series Forecasting, Anomaly Detection, Transfer Learning, Ensemble Methods (XGBoost, Random Forest), Hyperparameter Tuning
+  \item \textbf{Deep Learning:} CNN, RNN, LSTM, Transformer Architectures, Whisper (ASR), Attention Mechanisms
+  \item \textbf{Frameworks \& Libraries:} TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, ONNX
+  \item \textbf{Data Engineering:} Python (Advanced), NumPy, Pandas, Dask, SQL, MongoDB, Feature Engineering, ETL Pipelines
+  \item \textbf{Visualization \& Reporting:} Matplotlib, Seaborn, Plotly, Power BI, Jupyter Notebooks
+  \item \textbf{MLOps \& DevOps:} Docker, Git, CI/CD (GitHub Actions), FastAPI, REST APIs, Linux
+  \item \textbf{Cloud \& Infrastructure:} AWS (S3, SageMaker, Lambda), Azure (Sentinel, Blob Storage)
+  \item \textbf{Security Domain:} Wireshark, Claroty, Tenable, PCAP Analysis, OT/ICS Protocol Analysis
+\end{itemize}
+
+% ─── EXPERIENCE ───
+\section{Professional Experience}
+\textbf{Associate -- AI \& OT Cybersecurity} \hfill \textit{Oct 2024 -- Present}\\
+\textit{PricewaterhouseCoopers (PwC), Hyderabad} \hfill \textit{1.8+ years}
+
+\vspace{4pt}
+\textbf{AI-Driven Security Analytics \& Automation}
+\begin{itemize}
+  \item Architected and deployed an \textbf{ML-based anomaly detection pipeline} processing 500K+ OT sensor events daily, achieving 85\% precision in identifying malicious traffic patterns and reducing false-positive rates by 30\%.
+  \item Engineered automated Python workflows to ingest, parse, and analyze \textbf{multi-terabyte PCAP datasets}, extracting 50+ protocol-level features for downstream classification models.
+  \item Developed an \textbf{XGBoost-based risk-scoring engine} that prioritized vulnerabilities by exploitability and asset criticality, cutting manual triage time by \textbf{40\%} across assessment engagements.
+  \item Built reusable \textbf{NLP pipelines} for automated policy-document analysis, extracting compliance gaps against ISO 27001:2022 controls with 90\%+ extraction accuracy.
+\end{itemize}
+
+\vspace{4pt}
+\textbf{Assessment Delivery \& Technical Leadership}
+\begin{itemize}
+  \item Spearheaded OT security assessments for \textbf{6 major engagements} spanning aviation, energy, telecom, and manufacturing sectors -- each involving network architecture review, stakeholder workshops, and executive-level reporting.
+  \item Led on-site audits across \textbf{4 geographically distributed sites} under aggressive 3-week timelines, delivering comprehensive maturity assessments and remediation roadmaps.
+  \item Performed deep-dive \textbf{firewall rule analysis and network segmentation reviews} for industrial control environments, identifying 25+ critical misconfigurations per engagement.
+  \item Conducted \textbf{physical and logical security reviews} of telecom infrastructure across 5 tower locations, automating configuration compliance checks with custom Python scripts.
+  \item Managed full project lifecycle for a multi-phase security engagement -- from kickoff through final closure, including stakeholder coordination, milestone tracking, and payment reconciliation.
+\end{itemize}
+
+\vspace{4pt}
+\textbf{SOC Operations \& Continuous Monitoring}
+\begin{itemize}
+  \item Currently supporting a \textbf{24/7 shift-based SOC operation} for a global industrial technology provider, performing real-time threat monitoring, alert triage, and incident escalation using Microsoft Sentinel and Defender for IoT.
+\end{itemize}
+
+% ─── PROJECTS ───
+\section{Key AI/ML Projects}
+
+\textbf{Automatic Speech Recognition \& Emotion Detection -- Tamil Language} \hfill \textit{Apr--May 2024}
+\begin{itemize}
+  \item Fine-tuned OpenAI's \textbf{Whisper Base} model using transfer learning on a custom Tamil-speech corpus; appended bidirectional LSTM layers for temporal emotion modeling, achieving \textbf{85\% classification accuracy} across 6 emotion categories.
+  \item Designed a robust data pipeline handling audio augmentation (noise injection, pitch shifting, time stretching), MFCC/spectrogram extraction, and batch processing of 12+ hours of raw audio daily.
+  \item Deployed inference endpoint via FastAPI with sub-200ms latency; containerized with Docker for reproducible deployment.
+  \item \faGithub\ \href{https://github.com/karthikeyan1708/Automatic-Speech-Recognition-and-Emotion-Detection-of-Tamil-Speech}{\textbf{View on GitHub}}
+\end{itemize}
+
+\vspace{4pt}
+\textbf{Communicable Disease Outbreak Prediction System} \hfill \textit{Jan--Mar 2023}
+\begin{itemize}
+  \item Developed an ensemble of \textbf{RNN and SVR models} to forecast dengue and chikungunya outbreaks with \textbf{92\% accuracy} over a 12-month prediction horizon.
+  \item Engineered 30+ features from epidemiological, meteorological, and demographic datasets totaling 2M+ records; applied PCA and recursive feature elimination for dimensionality reduction.
+  \item Built interactive Plotly dashboards for public-health stakeholders, enabling drill-down analysis by region, time period, and disease type.
+  \item \textbf{Published} in Springer -- \textit{Inventive Communication and Computational Technologies} (Oct 2023).
+  \item \faGithub\ \href{https://github.com/karthikeyan1708/communicable_diseases_prediction}{\textbf{View on GitHub}}
+\end{itemize}
+
+% ─── ADDITIONAL ───
+\section{Additional Contributions}
+\begin{itemize}
+  \item \textbf{Proposal Development:} Co-authored technical proposals for two enterprise clients in FMCG and industrial sectors, contributing solution architecture and AI-enablement strategy sections.
+  \item \textbf{Knowledge Sharing:} Created internal playbooks on ML-enhanced PCAP analysis and automated compliance checking, adopted by 3 project teams.
+\end{itemize}
+
+% ─── CERTIFICATIONS ───
+\section{Certifications}
+\textbf{ISO 27001:2022 Lead Implementer} -- Information Security Management Systems (ISMS)
+
+% ─── PUBLICATIONS ───
+\section{Publications}
+M Karthikeyan et al., ``\textit{Communicable Disease Prediction Using Machine Learning and Deep Learning Algorithms},'' Inventive Communication and Computational Technologies, pp. 979--992, Springer, Oct 2023.\\
+\textit{DOI:} \href{https://doi.org/10.1007/978-981-99-5166-6_66}{10.1007/978-981-99-5166-6\_66}
+
+% ─── EDUCATION ───
+\section{Education}
+\textbf{B.Tech, Computer Science \& Engineering (Artificial Intelligence)} \hfill \textit{2020--2024}\\
+\textit{School of AI \& Computing, Amrita Vishwa Vidyapeetham, Coimbatore} \hfill CGPA: 8.5 / 10\\[2pt]
+\textit{Key Coursework:} Machine Learning, Deep Learning, NLP, Computer Vision, Data Structures \& Algorithms, Software Engineering, Database Management
+
+% ─── LANGUAGES ───
+\section{Languages}
+English (Professional) \(\mid\) Tamil (Native) \(\mid\) Hindi (Conversational) \(\mid\) Kannada (Conversational)
+
+\end{document}
