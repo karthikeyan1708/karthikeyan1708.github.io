@@ -240,3 +240,40 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+
+// ══════════════════════════════════════════════
+// COPY EMAIL TO CLIPBOARD
+// ══════════════════════════════════════════════
+function copyEmail(el) {
+    const email = 'karthikeyan17802@gmail.com';
+    navigator.clipboard.writeText(email).then(() => {
+        // Show feedback
+        const original = el.innerHTML;
+        if (el.tagName === 'BUTTON') {
+            el.innerHTML = 'Copied! <i class="fas fa-check"></i>';
+            el.style.background = 'rgba(0, 255, 100, 0.2)';
+            el.style.borderColor = 'rgba(0, 255, 100, 0.5)';
+        } else {
+            const valueSpan = el.querySelector('.contact-link-value') || el;
+            const origText = valueSpan.textContent;
+            valueSpan.textContent = 'Copied to clipboard!';
+            setTimeout(() => { valueSpan.textContent = origText; }, 2000);
+        }
+        setTimeout(() => {
+            el.innerHTML = original;
+            el.style.background = '';
+            el.style.borderColor = '';
+        }, 2000);
+    }).catch(() => {
+        // Fallback: select and copy
+        const textarea = document.createElement('textarea');
+        textarea.value = email;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        alert('Email copied: ' + email);
+    });
+}
+
