@@ -1,0 +1,167 @@
+%────────────────────────────────────────────────────────────────
+%  M KARTHIKEYAN — Combined AI & Cybersecurity Resume
+%  Overleaf-ready  •  2 pages max  •  ATS-optimised
+%────────────────────────────────────────────────────────────────
+\documentclass[10.5pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+\geometry{left=0.55in, right=0.55in, top=0.45in, bottom=0.45in}
+
+\definecolor{linkblue}{HTML}{0056B3}
+\definecolor{rulecolor}{HTML}{1a1a2e}
+\definecolor{accent}{HTML}{2563EB}
+\hypersetup{colorlinks=true, linkcolor=linkblue, urlcolor=linkblue}
+
+\titleformat{\section}{\large\bfseries\scshape\color{rulecolor}}{}{0em}{}[\color{rulecolor}\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+
+\setlist{noitemsep, topsep=1.5pt, leftmargin=14pt}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Compact sub-header command
+\newcommand{\expheader}[4]{%
+  \textbf{#1} \hfill \textit{#2}\\
+  \textit{#3} \hfill \textit{#4}\vspace{3pt}%
+}
+
+\newcommand{\subheading}[1]{\vspace{3pt}\textbf{#1}\vspace{1pt}}
+
+\begin{document}
+
+% ═══════════════════════════════════════════════
+%  HEADER
+% ═══════════════════════════════════════════════
+\begin{center}
+{\LARGE \textbf{M KARTHIKEYAN}}\\[3pt]
+{\normalsize AI Engineer \(\mid\) OT Cybersecurity Analyst \(\mid\) ML-Powered Security Analytics}\\[5pt]
+\faPhone\ +91 9380699461 \quad
+\faEnvelope\ \href{mailto:karthikeyan17802@gmail.com}{karthikeyan17802@gmail.com} \quad
+\faLinkedin\ \href{https://www.linkedin.com/in/karthikeyan-m-10a35a242/}{LinkedIn} \quad
+\faGithub\ \href{https://github.com/karthikeyan1708}{GitHub}\\[3pt]
+\faGlobe\ \href{https://karthikeyan1708.github.io}{\textcolor{linkblue}{karthikeyan1708.github.io}} — \textit{Interactive portfolio with projects, engagements \& experience}
+\end{center}
+
+% ═══════════════════════════════════════════════
+%  PROFESSIONAL SUMMARY
+% ═══════════════════════════════════════════════
+\section{Professional Summary}
+AI Engineer \& OT Cybersecurity Analyst with \textbf{{\raise.17ex\hbox{$\scriptstyle\sim$}}2 years at PwC (Big-4)}, operating at the intersection of machine learning and industrial security. Expertise in building \textbf{production-grade anomaly-detection pipelines}, automating multi-terabyte PCAP analysis, and deploying AI-powered vulnerability assessment tools across critical infrastructure. Delivered \textbf{6+ security engagements} spanning aviation, energy, telecom, and manufacturing. ISO 27001:2022 Lead Implementer. Published researcher (Springer). Reduced manual analysis effort by \textbf{40\%} through intelligent automation.
+
+% ═══════════════════════════════════════════════
+%  TECHNICAL SKILLS
+% ═══════════════════════════════════════════════
+\section{Technical Skills}
+\begin{itemize}
+  \item \textbf{ML \& AI:} Supervised/Unsupervised Learning, Time-Series Forecasting, Anomaly Detection, Transfer Learning, XGBoost, Random Forest, Ensemble Methods, Hyperparameter Tuning
+  \item \textbf{Deep Learning \& NLP:} CNN, RNN, LSTM, Transformers, Whisper (ASR), Attention Mechanisms, NLP Pipelines
+  \item \textbf{Frameworks:} TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, ONNX
+  \item \textbf{Languages \& Data:} Python (Advanced), Java, SQL, MATLAB, NumPy, Pandas, Dask, MongoDB, ETL Pipelines
+  \item \textbf{MLOps \& Cloud:} Docker, Git, CI/CD, FastAPI, REST APIs, Linux, AWS (S3, SageMaker, Lambda), Azure (Sentinel, Blob)
+  \item \textbf{Cybersecurity:} Wireshark, Claroty, Tenable, ArcStrike, Microsoft Sentinel, Defender for IoT, PCAP Analysis, OT/ICS Protocols (Modbus, DNP3, OPC-UA), ISO 27001:2022, IEC 62443
+  \item \textbf{Visualization:} Matplotlib, Seaborn, Plotly, Power BI, Jupyter Notebooks
+\end{itemize}
+
+% ═══════════════════════════════════════════════
+%  PROFESSIONAL EXPERIENCE
+% ═══════════════════════════════════════════════
+\section{Professional Experience}
+\expheader{Associate — AI \& OT Cybersecurity}{Oct 2024 -- Present}{PricewaterhouseCoopers (PwC), Hyderabad}{{\raise.17ex\hbox{$\scriptstyle\sim$}}2 years}
+
+\subheading{AI-Driven Security Analytics \& Automation}
+\begin{itemize}
+  \item Architected an \textbf{ML-based anomaly detection pipeline} processing \textbf{500K+ daily OT sensor events}, achieving 85\% precision in malicious-traffic identification and reducing false positives by \textbf{30\%}.
+  \item Engineered Python workflows to ingest and analyze \textbf{multi-terabyte PCAP datasets}, extracting 50+ protocol-level features (Modbus, DNP3, OPC-UA) for classification — reducing manual review from \textbf{weeks to hours}.
+  \item Developed an \textbf{XGBoost risk-scoring engine} that prioritized vulnerabilities by exploitability and asset criticality, cutting manual triage time by \textbf{40\%}.
+  \item Built \textbf{NLP pipelines} for automated policy-document analysis, extracting compliance gaps against ISO 27001:2022 controls with \textbf{90\%+ accuracy}; integrated into PwC's internal audit toolchain.
+\end{itemize}
+
+\subheading{Assessment Delivery \& Technical Leadership}
+\begin{itemize}
+  \item Spearheaded \textbf{6+ end-to-end OT security assessments} across aviation, energy, telecom, and manufacturing — network architecture review, stakeholder workshops, and executive-level reporting.
+  \item Led on-site audits across \textbf{4 geographically distributed sites} under aggressive 3-week timelines, delivering maturity assessments with prioritized remediation roadmaps.
+  \item Performed deep-dive \textbf{firewall rule analysis and network segmentation reviews} for ICS environments, identifying \textbf{25+ critical misconfigurations} per engagement.
+  \item Conducted security reviews of telecom infrastructure across \textbf{5 tower locations}, automating configuration compliance checks with Python.
+  \item Authored \textbf{10+ security policy documents} and risk assessment reports aligned to ISO 27001:2022.
+  \item Managed \textbf{full project lifecycle} — kickoff through closure, stakeholder coordination, milestone tracking, and payment reconciliation.
+\end{itemize}
+
+\subheading{SOC Operations \& Continuous Monitoring}
+\begin{itemize}
+  \item Providing \textbf{24/7 shift-based SOC support} for a global industrial technology provider — real-time threat monitoring, alert triage, and incident escalation using \textbf{Microsoft Sentinel} and \textbf{Defender for IoT}.
+\end{itemize}
+
+% ═══════════════════════════════════════════════
+%  KEY ENGAGEMENTS
+% ═══════════════════════════════════════════════
+\section{Key Engagements Delivered}
+\textit{Client names withheld for confidentiality.}\\[3pt]
+\begin{tabular}{@{} p{3.4cm} p{9.5cm} p{2cm} @{}}
+\textbf{Sector} & \textbf{Scope} & \textbf{Period}\\[2pt]
+\hline\\[-7pt]
+Major Airport Operator & On-site OT assessment, PCAP analysis, architecture review & Apr–May '25\\[2pt]
+Leading Telecom Provider & Multi-site security review (5 towers), Python automation & Jun–Aug '25\\[2pt]
+Renewable Energy Firm & OT/IT revalidation, maturity scoring, compliance gaps & Aug–Sep '25\\[2pt]
+Global Energy Corp. & OT firewall review, deep PCAP analysis, remediation docs & Sep–Oct '25\\[2pt]
+Mining \& Metals Group & Multi-site audit (4 entities), executive reporting & Nov–Dec '25\\[2pt]
+Industrial Tech Provider & 24/7 SOC — Sentinel, Defender for IoT, incident escalation & Ongoing\\
+\end{tabular}
+
+% ═══════════════════════════════════════════════
+%  KEY PROJECTS
+% ═══════════════════════════════════════════════
+\section{Key AI/ML Projects}
+
+\textbf{Automatic Speech Recognition \& Emotion Detection — Tamil Language} \hfill \textit{Apr–May 2024}
+\begin{itemize}
+  \item Fine-tuned \textbf{OpenAI Whisper Base} with transfer learning; appended bidirectional LSTM layers for temporal emotion modeling — \textbf{85\% accuracy} across 6 emotion categories.
+  \item Designed robust data pipeline: audio augmentation, MFCC/spectrogram extraction, batch processing of 12+ hours/day.
+  \item Deployed via \textbf{FastAPI} with sub-200ms latency; containerized with Docker for reproducible deployment.
+\end{itemize}
+
+\vspace{3pt}
+\textbf{Communicable Disease Outbreak Prediction System} \hfill \textit{Jan–Mar 2023}
+\begin{itemize}
+  \item Built \textbf{RNN + SVR ensemble} to forecast dengue/chikungunya outbreaks with \textbf{92\% accuracy} over a 12-month horizon.
+  \item Engineered 30+ features from 2M+ epidemiological records; applied PCA \& recursive feature elimination.
+  \item Built interactive \textbf{Plotly dashboards} for public-health stakeholders. \textbf{Published in Springer} (Oct 2023).
+\end{itemize}
+
+% ═══════════════════════════════════════════════
+%  ADDITIONAL CONTRIBUTIONS
+% ═══════════════════════════════════════════════
+\section{Additional Contributions}
+\begin{itemize}
+  \item \textbf{Proposal Development:} Co-authored technical proposals for enterprise clients (FMCG \& industrial), contributing solution architecture and AI-enablement strategy.
+  \item \textbf{Knowledge Sharing:} Created internal playbooks on ML-enhanced PCAP analysis and automated compliance checking, adopted by \textbf{3 project teams}.
+\end{itemize}
+
+% ═══════════════════════════════════════════════
+%  EDUCATION
+% ═══════════════════════════════════════════════
+\section{Education}
+\textbf{B.Tech, Computer Science \& Engineering (Artificial Intelligence)} \hfill \textit{2020–2024}\\
+\textit{School of AI \& Computing, Amrita Vishwa Vidyapeetham, Coimbatore} \hfill CGPA: 8.5 / 10\\[2pt]
+\textit{Key Coursework:} Machine Learning, Deep Learning, NLP, Computer Vision, Data Structures \& Algorithms, Network Security
+
+% ═══════════════════════════════════════════════
+%  CERTIFICATIONS & PUBLICATION
+% ═══════════════════════════════════════════════
+\section{Certifications \& Publication}
+\textbf{ISO 27001:2022 Lead Implementer} — Information Security Management Systems (ISMS)\\[4pt]
+M Karthikeyan et al., ``\textit{Communicable Disease Prediction Using Machine Learning and Deep Learning Algorithms},'' Inventive Communication and Computational Technologies, pp.\,979–992, Springer, Oct 2023. \href{https://doi.org/10.1007/978-981-99-5166-6_66}{\textit{DOI: 10.1007/978-981-99-5166-6\_66}}
+
+\vspace{6pt}
+\begin{center}
+\small\textcolor{gray}{Languages: English (Professional) · Tamil (Native) · Hindi (Conversational) · Kannada (Conversational)}
+\end{center}
+
+\end{document}
