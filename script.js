@@ -173,7 +173,7 @@ const statObserver = new IntersectionObserver((entries) => {
                         requestAnimationFrame(updateCounter);
                     } else {
                         counter.textContent = isFloat ? target.toFixed(1) : target;
-                        if (target === 1.8) counter.textContent = '1.8+';
+
                         if (target === 2) counter.textContent = '2+';
                     }
                 }
